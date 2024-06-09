@@ -6,7 +6,7 @@ with open("/home4/khanhnd/improved_unimatch/data_synthetic/temp.txt","w") as f:
     for i in tqdm(lst):
         print(i)
         client = OpenAI(
-            api_key="sk-proj-8H4AOGRfdgMErFXFMsvTKKKKKKKKKKKKKKKKT3BlbkFJc6wPVTXFCWQvWd787vrd",
+            api_key="",
         )
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
